@@ -86,6 +86,6 @@ export async function fetchData({
         );
       }
       resolve(companies);
-    }, 1000);
+    }, 300);
   });
 }
