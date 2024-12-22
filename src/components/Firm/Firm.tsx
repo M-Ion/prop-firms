@@ -12,9 +12,7 @@ export default function Firm({
       <Image src={logo} alt="logo" height={48} width={48} />
       <div className="flex justify-center items-start flex-col gap-1">
         <div className="flex justify-center items-center gap-1">
-          <span className="text-white text-[14px] font-[family-name:var(--font-inter)] font-[600] leading-[21px]">
-            {companyName}
-          </span>
+          <span className="medium-text">{companyName}</span>
           <HeartIcon />
         </div>
         <div className="flex justify-start items-center gap-1">

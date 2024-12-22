@@ -29,7 +29,7 @@ export default function Search({ className }: SearchProps) {
   return (
     <div
       className={clsx(
-        "flex items-center bg-background-tertiary rounded-full px-[10px] p-2 w-full border border-[#2F2C2D]",
+        "flex items-center bg-background-tertiary rounded-full px-[10px] p-2 w-full border border-[#2F2C2D] focus-within:border-white",
         className
       )}
     >

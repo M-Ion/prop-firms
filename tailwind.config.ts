@@ -12,6 +12,7 @@ export default {
     extend: {
       backgroundImage: {
         "gradient-custom": "linear-gradient(to right, #9061F9, #E74694)",
+        "gradient-custom-invert": "linear-gradient(to right, #E74694, #9061F9)",
         "gradient-custom-transparent":
           "linear-gradient(to right, rgba(144, 97, 249, 0.1), rgba(231, 70, 148, 0.1))",
       },

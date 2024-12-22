@@ -12,9 +12,7 @@ export default function Rank({
       <div className="p-[2px] bg-gradient-custom rounded-full">
         <div className="bg-background-tertiary rounded-full">
           <div className="px-2 py-1 w-full h-full bg-gradient-custom-transparent rounded-full">
-            <span className="text-white text-[14px] font-[family-name:var(--font-inter)] font-[600] leading-[21px]">
-              {rank.toFixed(1)}
-            </span>
+            <span className="medium-text">{rank.toFixed(1)}</span>
           </div>
         </div>
       </div>
