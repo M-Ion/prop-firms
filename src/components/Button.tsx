@@ -21,8 +21,8 @@ export default function Button({
     <RadixUIButton
       onClick={onClick}
       className={clsx(
-        "box-content text-[12px] leading-[18px] font-[600] font-[family-name:var(--font-poppins)] bg-background-tertiary py-[10px] px-3 rounded-full flex justify-center items-center gap-2 hover:bg-background hover:border hover:border-white",
-        isActive && "bg-background border border-white"
+        "text-[12px] leading-[18px] font-[600] font-[family-name:var(--font-poppins)] bg-background-tertiary py-[10px] px-3 rounded-full flex justify-center items-center gap-2 hover:bg-background hover:outline hover:outline-white",
+        isActive && "bg-background outline outline-white"
       )}
     >
       {icon ? icon : null}
